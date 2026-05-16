@@ -1,0 +1,32 @@
+:root {
+  --bg: #0c0e14;
+  --surface: #141820;
+  --surface-elevated: #1a1f2a;
+  --border: #2a3142;
+  --text: #e8eaef;
+  --text-muted: #9aa3b5;
+  --accent: #6366f1;
+  --accent-bright: #a5b4fc;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}

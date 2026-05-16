@@ -1,0 +1,89 @@
+.pattern-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow: visible;
+}
+
+.pattern-year {
+  margin: 16px 0 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-bright);
+}
+
+.pattern-year:first-child {
+  margin-top: 0;
+}
+
+.pattern-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 52px;
+  gap: 12px;
+  align-items: start;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid transparent;
+  overflow: visible;
+}
+
+.pattern-row__body {
+  overflow: visible;
+}
+
+.pattern-row--elective {
+  border-color: rgba(99, 102, 241, 0.35);
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.08), transparent);
+}
+
+.pattern-row__term {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.pattern-row__body {
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.pattern-tag {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(99, 102, 241, 0.2);
+  color: var(--accent-bright);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.pattern-placeholder {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.pattern-row__units {
+  text-align: right;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.pattern-footnote {
+  margin-top: 16px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .pattern-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pattern-row__units {
+    text-align: left;
+  }
+}
