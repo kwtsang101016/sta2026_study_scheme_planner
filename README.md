@@ -17,6 +17,14 @@ The site returns 404 until GitHub Pages is turned on:
 
 After each push to `main`, the [Deploy workflow](https://github.com/kwtsang101016/sta2026_study_scheme_planner/actions) updates the site automatically.
 
+### Add an icon on your phone (recommended for students)
+
+**iPhone (Safari):** open the link → tap **Share** → **Add to Home Screen** → **Add**.
+
+**Android (Chrome):** open the link → menu **⋮** → **Install app** or **Add to Home screen**.
+
+The app opens full-screen from the **STA Planner** icon. A short hint appears on first visit on mobile.
+
 ## Run locally
 
 ```bash

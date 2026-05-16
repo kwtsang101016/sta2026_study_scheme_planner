@@ -5,6 +5,7 @@ import { InterestSelector } from "./components/InterestSelector";
 import { Notes } from "./components/Notes";
 import { RequirementsSummary } from "./components/RequirementsSummary";
 import { StreamInsight } from "./components/StreamInsight";
+import { InstallHint } from "./components/InstallHint";
 import { recommendElectives } from "./lib/recommendations";
 import "./App.css";
 
@@ -49,6 +50,8 @@ export default function App() {
         <CourseCatalog />
         <Notes />
       </main>
+
+      <InstallHint />
 
       <footer className="footer">
         <p>
