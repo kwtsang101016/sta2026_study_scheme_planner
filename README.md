@@ -6,9 +6,16 @@ Interactive planner for the CUHK-SZ Statistics major (2025–26 intake and there
 
 **https://kwtsang101016.github.io/sta2026_study_scheme_planner/**
 
-Share that link — no install required. Updates deploy automatically when `main` is pushed.
+### One-time setup (repo owner only)
 
-If the page is blank the first time, check **Settings → Pages → Build and deployment** is set to **GitHub Actions**.
+The site returns 404 until GitHub Pages is turned on:
+
+1. Open **[Repository Settings → Pages](https://github.com/kwtsang101016/sta2026_study_scheme_planner/settings/pages)**
+2. Under **Build and deployment → Source**, choose **Deploy from a branch**
+3. **Branch:** `gh-pages` · **Folder:** `/ (root)` · click **Save**
+4. Wait 1–2 minutes, then open the link above
+
+After each push to `main`, the [Deploy workflow](https://github.com/kwtsang101016/sta2026_study_scheme_planner/actions) updates the site automatically.
 
 ## Run locally
 
